@@ -1,5 +1,5 @@
 # vuepub
-Just a package for quick release vue3 projects
+Just a package for quick publish vue3 projects
 
 ## Usage
 ### publish to windows
