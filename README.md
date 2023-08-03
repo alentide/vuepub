@@ -1,6 +1,10 @@
 # vuepub
 Just a package for quick publish vue3 projects
 
+## install
+``
+npm i vuepub
+``
 ## Usage
 ### publish to windows
 Add the following script to your project's package.json.
