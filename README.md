@@ -1,5 +1,5 @@
 # vuepub
-Just a package for quick publish vue3 projects
+Just a package for quick publish vue3 projects.Your server must start the ***ssh service***.
 
 ## install
 ``
