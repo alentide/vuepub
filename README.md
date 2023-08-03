@@ -1,0 +1,1 @@
+Just a package for quick release vue3 projects
