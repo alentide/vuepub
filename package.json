@@ -1,15 +1,19 @@
 {
   "name": "vuepub",
   "version": "1.0.0",
-  "description": "Just a package for quick release vue3 projects",
+  "description": "Just a package for quick publish vue3 projects",
   "main": "index.js",
+  "bin": {
+    "publish-win": "./scripts/publish-win.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
+  "keywords": ["publish","vue3","vue"],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "minimist": "^1.2.8"
+    "minimist": "^1.2.8",
+    "ssh2-sftp-client": "^9.1.0"
   }
 }

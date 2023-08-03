@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var minimist = require('minimist');
 
 const args = minimist(process.argv.slice(2));
@@ -29,7 +30,7 @@ const server = {
   port,
 }
 // 上传到服务器的地址
-const remotePath = goal
+const remotePath = goal;
 
 (async function start() {
   const fs = require('fs');
