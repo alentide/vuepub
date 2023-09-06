@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 const Client = require('ssh2').Client
 const conn = new Client()
-
+const minimist = require('minimist')
 const args = minimist(process.argv.slice(2));
 const {host,username,password,port=22,goal='',origin=''} = args
 if(!host){
