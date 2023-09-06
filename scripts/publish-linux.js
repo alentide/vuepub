@@ -124,6 +124,8 @@ function compress() {
   c = await UploadFile(c)
   // 执行shell脚本 解压服务器上的文件
   const shellList = [
+    `rm -rf ${goal}`,
+    `mkdir -p ${goal}`,
     `cd ${remotePath}\n`,
     `tar xvf ${localPath} \n `,
     `mv dist/* ./ \n`,
