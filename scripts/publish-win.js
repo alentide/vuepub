@@ -4,24 +4,24 @@ var minimist = require('minimist');
 const args = minimist(process.argv.slice(2));
 const {host,username,password,port=22,goal='',origin=''} = args
 if(!host){
-    console.error('请设置：--host')
-    return
+  console.error('please set: --host')
+  return
 }
 if(!username){
-    console.error('请设置：--username')
-    return
+  console.error('please set: --username')
+  return
 }
 if(!password){
-    console.error('请设置：--password')
-    return
+  console.error('please set: --password')
+  return
 }
 if(!origin){
-    console.error('请设置本地目录路径：--origin')
-    return
+  console.error('Please set the local directory path: --origin')
+  return
 }
 if(!goal){
-    console.error('请设置目的地目录路径：--goal')
-    return
+  console.error('Please set the destination directory path: --goal')
+  return
 }
 const server = {
   host,
