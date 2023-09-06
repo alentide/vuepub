@@ -1,6 +1,6 @@
 {
   "name": "vuepub",
-  "version": "1.1.2",
+  "version": "1.1.3",
   "description": "Just a package for quick publish vue3 projects",
   "main": "index.js",
   "bin": {
